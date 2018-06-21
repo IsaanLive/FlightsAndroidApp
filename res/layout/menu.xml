@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Single menu item 
+		 Set id, icon and Title for each menu item
+	-->
+    <item android:id="@+id/menu_home"
+    	  android:icon="@drawable/icon_home"
+          android:title="Home" />
+    <item android:id="@+id/menu_refresh"
+    	  android:icon="@drawable/icon_refresh"
+          android:title="Refresh" />
+    <item android:id="@+id/menu_share"
+    	  android:icon="@drawable/icon_share"
+          android:title="Share" />
+    <item android:id="@+id/menu_close"
+    	  android:icon="@drawable/icon_close"
+          android:title="Close" />  
+</menu>
